@@ -28,6 +28,9 @@
 body {
   background-color: var(--bg-color);
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex-flow: column;
   height: 100vh;
   color: var(--font-color);
@@ -37,6 +40,10 @@ body {
 
 body.dark {
   background-color: #292c35;
+}
+
+body.dark p {
+  color: #ffffff;
 }
 
 .checkbox {
