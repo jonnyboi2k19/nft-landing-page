@@ -30,8 +30,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
-  flex-flow: column;
+  flex-flow: unset;
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
