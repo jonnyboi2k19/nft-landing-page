@@ -1,9 +1,9 @@
 const checkbox = 
 document.getElementById('checkbox');
 
-checkbox.addEventListener('change', ()
-=> {
+checkbox.addEventListener('change', () => {
   // change the theme of the website
+  document.body.classList.toggle('dark');
 });
 //Countdown Timer
 const clockdiv = document.getElementById("countdown");
