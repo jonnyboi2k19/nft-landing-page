@@ -28,7 +28,7 @@
 body {
   background-color: var(--bg-color);
   display: flex;
-  -ms-flex-item-align: inherit;
+  -ms-flex-item-align: stretch;
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
@@ -52,7 +52,7 @@ body.dark p {
   background-color: #111;
   display: flex;
   align-items: baseline;
-  justify-content: center;
+  justify-content: left;
   border-radius: 50px;
   position: relative;
   padding: 5px;
