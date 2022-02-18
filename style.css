@@ -28,7 +28,6 @@
 body {
   background-color: var(--bg-color);
   display: flex;
-  -ms-flex-item-align: stretch;
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
